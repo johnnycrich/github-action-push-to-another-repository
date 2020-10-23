@@ -1,7 +1,8 @@
 #!/bin/sh -l
 
-echo "Starts"
 FOLDER="$1"
+echo "$FOLDER"
+ls "$FOLDER"
 GITHUB_USERNAME="$2"
 GITHUB_REPO="$3"
 USER_EMAIL="$4"
