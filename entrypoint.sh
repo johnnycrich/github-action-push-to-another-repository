@@ -2,7 +2,7 @@
 
 FOLDER="$1"
 echo "$FOLDER"
-ls "$FOLDER"
+ls ./
 GITHUB_USERNAME="$2"
 GITHUB_REPO="$3"
 USER_EMAIL="$4"
